@@ -6,7 +6,7 @@ echo "******************"
 sudo apt update -y && \
 sudo apt upgrade -y && \
 sudo flatpak update -y && \
-sudo snap refresh -y && \
+sudo snap refresh && \
 sudo apt autoremove && \
 sudo apt autoclean -y
 echo "*****************************"
